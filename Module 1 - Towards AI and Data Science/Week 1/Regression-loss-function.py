@@ -40,8 +40,8 @@ def exercise3():
         num_samples = int(num_samples)
     
     random.seed(0)
-    y_true = [random.uniform(0, 10) for i in range(num_samples)]
-    y_pred = [random.uniform(0, 10) for i in range(num_samples)]
+    y_true = [random.uniform(0, 10) for _ in range(num_samples)]
+    y_pred = [random.uniform(0, 10) for _ in range(num_samples)]
 
     print('Input loss name: ', end='')
     optional = input()
